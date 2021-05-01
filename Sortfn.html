@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+
+</head>	
+<body>
+	<p> this i ssorting function</p>
+	<p id="demo"> </p>
+	<!--<p id="demo1"> </p>-->
+
+	<button type="button" onclick="myFunction()">click me</button>
+
+
+	
+
+	<script>
+		var numeric=[1,10,15,2,5];
+		document.getElementById("demo").innerHTML=numeric;
+	
+
+		function myFunction(){
+		numeric.sort(function(a, b){return a - b});
+		document.getElementById("demo").innerHTML=numeric;
+	}
+</script>
+</body>
+</html>
