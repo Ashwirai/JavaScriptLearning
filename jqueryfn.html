@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$ (document).ready(function(){
+		$("p").on({
+			mouseenter:function(){
+				$(this).css("background-color","blue");
+			},
+			mouseleave:function(){
+				$(this).css("background-color","grey");
+			},
+			click:function(){
+				$(this).css("background-color","yellow");
+			}
+
+
+		});
+	});
+
+
+</script>
+</head>
+<body>
+<p><strong>I am visible to everyone</strong></p>
+
+
+</body>
+</html>
