@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+
+</head>	
+<body>
+	<p id="demo"> </p>
+	<p id="demo1"> </p>
+
+	<button type="button" onclick="myFunction1()">click me</button>
+	<script>
+
+	cities=["goa","banglore","manglore","udupi"];
+	document.getElementById("demo").innerHTML=cities;
+
+	function myFunction(){
+		cities.push("chennai");
+
+		document.getElementById("demo").innerHTML=cities;}
+
+    function myFunction1(){
+		cities.pop();
+		document.getElementById("demo").innerHTML=cities
+
+	}
+</script>
+</body>
+</html>
